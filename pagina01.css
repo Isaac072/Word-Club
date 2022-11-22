@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #111111;
+    --cor1: #0d0d0d;
+    --cor2: #090909;
+    --cor3: #ffffff;
+    --cor4: #a6a6a6;
+    --cor5: #bfbfbf;
+    --cor6: #1bb535;
+    --cor7: #106e20;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(Imagens/plano-de-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header > h1 {
+    font-family: var(--fonte-padrao);
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    max-width: 900px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+    padding: 10px 10px 50px 10px;
+    margin: auto;
+}
+
+div {
+    font-family: var(--fonte-padrao);
+    width: 483.5px;
+    height: 30px;
+    background-color: white;
+    margin: auto;
+    padding: 0px 0px 12px 10px;
+}
+
+div > input {
+    margin: 0;
+    border: none;
+    outline: none;
+    font-size: larger;
+    padding: 10px 45px 10px 15px;
+}
+
+div > button {
+    color: white;
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor6);
+    margin: 0;
+    border: none;
+    outline: none;
+    padding: 15px 40px 12px 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+div > button:hover {
+    background-color: var(--cor7);
+}
+
+div > input:hover {
+    background-color: #dddddd;
+}
